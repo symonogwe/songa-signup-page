@@ -58,7 +58,6 @@ body {
 }
 
 form {
-    /* border: 2px solid blue; */
     width: 80%;
     margin: var(--base-margin);
 }
@@ -116,7 +115,6 @@ a {
 }
 
 .bg-logo {
-    /* background-color: var(--form-bg-clr); */
     background-color: var(--logo-bg-clr);
     position: absolute;
     width: 100%;
@@ -126,5 +124,4 @@ a {
 
 .h1-logo {
     color: var(--base-clr);
-    /* text-align: ; */
 }
