@@ -87,15 +87,15 @@ input {
 }
 
 .signup-btn {
-    margin: var(--base-margin);
-    margin-top: 0;
-    background-color: var(--base-clr);
+    margin: 1rem 0rem;
+    background-color: var(--base-bg);
     font-size: var(--btn-fs);
     color: var(--base-txt-clr);
     padding: var(--btn-padding);
     border-radius: 7px;
     border: none;
     font-family: var(--base-heading-ff);
+    cursor: pointer;
 }
 
 .login-p {
@@ -125,3 +125,4 @@ a {
 .h1-logo {
     color: var(--base-clr);
 }
+
