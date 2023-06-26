@@ -28,6 +28,7 @@ body {
 }
 
 .company-bg {
+    position: relative;
     width: 40%;
     background: url(images/mikkel-bech-yjAFnkLtKY0-unsplash.jpg) no-repeat center center/cover;
 }
@@ -105,4 +106,21 @@ input {
 a {
     text-decoration: none;
     color: var(--base-clr);
+}
+
+.logo-img {
+    width: 5em;
+}
+
+.bg-logo {
+    background-color: var(--form-bg-clr);
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    text-align: center;
+}
+
+.h1-logo {
+    color: var(--base-clr);
+    /* text-align: ; */
 }
