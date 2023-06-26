@@ -20,17 +20,17 @@
           You Know You Want To!
         </h3>
         <div class="form-div">
-          <form action="">
+          <form action="#" method="post">
             <h3 class="h3-intro">Join Us Today!</h3>
             <br />
             <div class="input name-input">
               <div class="types names">
                 <label for="first-name">FIRST NAME</label>
-                <input type="text" name="first-name" id="first-name" />
+                <input type="text" name="first-name" id="first-name" required />
               </div>
               <div class="types names">
                 <label for="last-name">LAST NAME</label>
-                <input type="text" name="last-name" id="last-name" />
+                <input type="text" name="last-name" id="last-name" required />
               </div>
             </div>
             <br />
@@ -42,18 +42,30 @@
                   name="email"
                   id="email"
                   placeholder="abcd@gmail.com"
+                  required
                 />
               </div>
               <div class="types number">
                 <label for="phone-number">PHONE NUMBER</label>
-                <input type="tel" name="phone-number" id="phone-number" />
+                <input
+                  type="tel"
+                  name="phone-number"
+                  id="phone-number"
+                  required
+                />
               </div>
             </div>
             <br />
             <div class="input password">
               <div class="types password">
                 <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password" />
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  minlength="5"
+                  required
+                />
               </div>
               <div class="types password">
                 <label for="confirm-password"> CONFIRM PASSWORD </label>
@@ -61,6 +73,8 @@
                   type="password"
                   name="confirm-password"
                   id="confirm-password"
+                  minlength="5"
+                  required
                 />
               </div>
             </div>
