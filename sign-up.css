@@ -9,6 +9,7 @@
     --btn-fs: calc(.6rem + .9vw);
     --btn-padding: 0.3em 2em;
     --p-fs: calc(.5rem + .8vw);
+    --logo-bg-clr: #040404;
 }
 
 * {
@@ -62,7 +63,7 @@ form {
 
 form .h3-intro {
     margin: 0;
-    color: var(--base-txt-clr);
+    color: var(--logo-bg-clr);
 }
 
 .input {
@@ -76,7 +77,7 @@ form .h3-intro {
 }
 
 label {
-    color: var(--base-txt-clr);
+    color: var(--logo-bg-clr);
     font-family: var(--base-heading-ff);
 }
 
@@ -114,7 +115,7 @@ a {
 
 .bg-logo {
     /* background-color: var(--form-bg-clr); */
-    background-color: #040404;
+    background-color: var(--logo-bg-clr);
     position: absolute;
     width: 100%;
     top: 50px;
