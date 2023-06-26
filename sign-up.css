@@ -33,6 +33,11 @@ body {
     background-color: var(--bade-bg);
 }
 
+.signup-form > .h3-intro {
+    margin-top: 6rem;
+    max-width: 50ch;
+}
+
 .h3-intro {
     color: var(--base-clr);
     font-family: var(--base-heading-ff);
