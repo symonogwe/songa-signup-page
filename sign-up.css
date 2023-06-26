@@ -12,6 +12,7 @@
     --btn-padding: 0.3em 2em;
     --p-fs: calc(.5rem + .8vw);
     --logo-bg-clr: #040404;
+    --input-focus-clr: #1a7431;
 }
 
 * {
@@ -70,6 +71,15 @@ form .h3-intro {
 .input {
     display: flex;
     justify-content: space-between;
+}
+
+input:focus {
+    outline-color: gray;
+}
+
+input:invalid {
+    outline-width: 5px;
+    outline-color: red;
 }
 
 .types {
