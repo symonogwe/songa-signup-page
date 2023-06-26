@@ -6,6 +6,8 @@
     --base-h3-fs: calc(1rem + .6vw);
     --base-margin: 2rem 2rem;
     --form-bg-clr: #2b2c28;
+    --btn-fs: calc(.6rem + .9vw);
+    --btn-padding: 0.3em 2em;
 }
 
 * {
@@ -78,4 +80,21 @@ label {
 
 input {
     width: 20vw;
+}
+
+.signup-btn {
+    margin: var(--base-margin);
+    margin-top: 0;
+    background-color: var(--base-clr);
+    font-size: var(--btn-fs);
+    color: var(--base-txt-clr);
+    padding: var(--btn-padding);
+    border-radius: 7px;
+    border: none;
+    font-family: var(--base-heading-ff);
+}
+
+.login-p {
+    margin: var(--base-margin);
+    margin-top: 0;
 }
