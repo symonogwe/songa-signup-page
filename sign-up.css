@@ -1,13 +1,41 @@
 :root {
     --base-clr: #72B549;
-    --bade-bg: #0A0B0D;
+    --bade-bg: #292A2C;
     --base-txt-clr: #eaf4f4;
-    --base-heading-fnt: "Bebas Neue", sans-serif;
-    --base-h2-fs: calc(2rem + .8vw);
+    --base-heading-ff: "Bebas Neue", sans-serif;
+    --base-h3-fs: calc(1rem + .6vw);
+    --base-padding: 2rem 2rem;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.sign-up-page {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-bg {
+    width: 40%;
+    background: url(images/mikkel-bech-yjAFnkLtKY0-unsplash.jpg) no-repeat center center/cover;
+}
+
+.signup-form {
+    width: 60%;
+    background-color: var(--bade-bg);
+}
+
+.h3-intro {
+    color: var(--base-clr);
+    font-family: var(--base-heading-ff);
+    font-size: var(--base-h3-fs);
+    padding: var(--base-padding);
 }
