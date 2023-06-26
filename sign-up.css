@@ -1,10 +1,11 @@
 :root {
     --base-clr: #72B549;
-    --bade-bg: #292A2C;
+    --base-bg: #292A2C;
     --base-txt-clr: #eaf4f4;
     --base-heading-ff: "Bebas Neue", sans-serif;
     --base-h3-fs: calc(1rem + .6vw);
     --base-margin: 2rem 2rem;
+    --form-bg-clr: #2b2c28;
 }
 
 * {
@@ -30,7 +31,7 @@ body {
 
 .signup-form {
     width: 60%;
-    background-color: var(--bade-bg);
+    background-color: var(--base-bg);
 }
 
 .signup-form > .h3-intro {
@@ -45,14 +46,19 @@ body {
     margin: var(--base-margin);
 }
 
+.form-div {
+    background-color: var(--form-bg-clr);
+}
+
 form {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 80%;
     margin: var(--base-margin);
 }
 
 form .h3-intro {
     margin: 0;
+    color: var(--base-txt-clr);
 }
 
 .input {
@@ -67,6 +73,7 @@ form .h3-intro {
 
 label {
     color: var(--base-txt-clr);
+    font-family: var(--base-heading-ff);
 }
 
 input {
