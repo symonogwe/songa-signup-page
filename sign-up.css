@@ -113,7 +113,8 @@ a {
 }
 
 .bg-logo {
-    background-color: var(--form-bg-clr);
+    /* background-color: var(--form-bg-clr); */
+    background-color: #040404;
     position: absolute;
     width: 100%;
     top: 50px;
