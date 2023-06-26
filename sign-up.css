@@ -4,7 +4,7 @@
     --base-txt-clr: #eaf4f4;
     --base-heading-ff: "Bebas Neue", sans-serif;
     --base-h3-fs: calc(1rem + .6vw);
-    --base-padding: 2rem 2rem;
+    --base-margin: 2rem 2rem;
 }
 
 * {
@@ -37,5 +37,33 @@ body {
     color: var(--base-clr);
     font-family: var(--base-heading-ff);
     font-size: var(--base-h3-fs);
-    padding: var(--base-padding);
+    margin: var(--base-margin);
+}
+
+form {
+    border: 2px solid blue;
+    width: 80%;
+    margin: var(--base-margin);
+}
+
+form .h3-intro {
+    margin: 0;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.types {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: var(--base-txt-clr);
+}
+
+input {
+    width: 20vw;
 }
