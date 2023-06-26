@@ -8,6 +8,7 @@
     --form-bg-clr: #2b2c28;
     --btn-fs: calc(.6rem + .9vw);
     --btn-padding: 0.3em 2em;
+    --p-fs: calc(.5rem + .8vw);
 }
 
 * {
@@ -97,4 +98,6 @@ input {
 .login-p {
     margin: var(--base-margin);
     margin-top: 0;
+    color: var(--base-txt-clr);
+    font-size: var(--p-fs);
 }
